@@ -27,7 +27,7 @@ public class Adam {
             @Override
             public void run() {
                 LocalTime now = LocalTime.now();
-                CharSequence nowParsed = 
+                CharSequence nowParsed =
 
                 LocalTime morningGreeting = LocalTime.parse("09:00");
                 LocalTime afternoonLunch = LocalTime.parse("12:00");
